@@ -1,0 +1,7 @@
+pattern,issue,description,severity,example_fix
+"eval(",Use of eval,Using eval is dangerous and can lead to code injection,High,"Avoid eval. Use safe alternatives like literal_eval from ast."
+"exec(",Use of exec,Exec can execute arbitrary code and is risky,High,"Avoid exec. Use safe, specific APIs instead."
+"os.system(",Use of os.system,Prone to command injection,Medium,"Use subprocess.run instead of os.system."
+"pickle.loads(",Unsafe deserialization,Untrusted data in pickle.loads can lead to remote code execution,High,"Use safe deserialization libraries like json.loads."
+"open(",Missing file handling,Files may remain open if not properly closed,Low,"Use the with statement to ensure files are closed."
+
