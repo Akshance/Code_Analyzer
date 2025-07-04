@@ -1,0 +1,5 @@
+Flask==2.1.2
+Flask-Cors==3.1.1
+pyflakes==2.4.0           # A popular Python linting tool (or any other analysis tool you use)
+ast==2.0.0               # Used for abstract syntax tree analysis in Python (optional, based on your project needs)
+requests==2.28.1         # If you're using requests for HTTP calls, or any external requests
